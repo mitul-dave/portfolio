@@ -138,7 +138,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  padding: 2rem 1rem 4rem;
 }
 
 .section__title {
@@ -549,6 +549,18 @@ img {
 
 .skills__open .skills__arrow{
   transform: rotate(-180deg);
+}
+
+.skills_list{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 130px;
+  /* width: 130px; */
+  -webkit-box-shadow:0px 0px 6px 2px rgba(110,87,224,0.9);
+-moz-box-shadow: 0px 0px 6px 2px rgba(110,87,224,0.9);
+box-shadow: 0px 0px 6px 2px rgba(110,87,224,0.9);
 }
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
@@ -1011,7 +1023,7 @@ img {
   }
 
   .section{
-    padding: 6rem 0rem 2rem;
+    padding: 6rem 3rem 2rem;
   }
   .section__subtitle{
     margin-bottom: 4rem;
@@ -1144,7 +1156,8 @@ img {
     transform: translateX(-6rem);
   }
 
-  .services__container{
+  .services__container,
+  .skills__container{
     grid-template-columns: repeat(3, 238px);
   }
 
@@ -1170,3 +1183,86 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* @media screen  and (min-width: 1025px) and (max-width: 2560px){
+  .header,
+  .main,
+  .footer__container {
+    padding: 0 1rem;
+  }
+
+  .container{
+    max-width: 1500px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button__icon{
+    font-size: 1.8rem;
+  }
+
+  .nav{
+    max-width: 2350px;
+    column-gap: 3rem;
+    font-size: 2.5rem;
+    margin-left: 20px;
+  }
+  .nav__link{
+    font-size: 1.5rem;
+  }
+
+  .change-theme{
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__content {
+    grid-template-columns: max-content 1fr 1fr;
+    max-width: 1050px;
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+  }
+  .home__data{
+    width: 800px;
+    height: 500px;
+    font-size: 2rem;
+  }
+
+  .services__container{
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+  }
+  .services__title{
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+  }
+  .services__img{
+    width: 220px;
+    /* height: 120px; */
+  /* }
+  .services__button{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .services__modal-content {
+    width: 850px;
+    height: 600px;
+    font-size: 1.5rem;
+  }
+  .services__content {
+    padding: 3rem 0 2rem 2.5rem;
+  }
+  .services__modal-title{
+    font-size: 2rem;
+  }
+  .services__modal-close{
+    font-size: 2.5rem;
+  }
+
+  .about__container, .skills__container, .project__content, .contact__container, .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+} */
