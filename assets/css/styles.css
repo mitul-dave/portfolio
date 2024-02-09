@@ -1145,7 +1145,7 @@ img {
   }
 
   .services__container{
-    grid-template-columns: repeat(3);
+    grid-template-columns: repeat(3, 238px);
   }
 
   .project__content{
