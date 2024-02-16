@@ -120,7 +120,7 @@
                             <h1 class="home__title">Hi, I'm Mitul Dave</h1>
                             <h2 class="home_subtitle"><span class=" auto-type"></span>
                             </h2>
-                            <p class="home__description">I'm a passionate full-stack developer with a love for creating elegant and efficient solutions to complex problems.</p>
+                            <p class="home__description">I'm a passionate Full Stack Developer with a love for creating elegant and efficient solutions to complex problems.</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -147,7 +147,9 @@
 
                     <div class="about__data">
                         <p class="about__description">
-                            Full Stack Developer with a love for creating elegant and efficient solutions to complex problems. My expertise spans across the entire web development stack, from frontend technologies to backend systems.
+                            <p class="home__description">
+                                I am a dedicated and enthusiastic Junior Full Stack Developer with a focus on Odoo development. My journey into the world of technology began with a profound curiosity and a desire to create impactful solutions. With a solid foundation in programming languages like Python, JavaScript, HTML, and CSS, I embarked on a journey to explore the realms of web development and enterprise resource planning systems.
+                            </p>
                         </p>
                         <div class="about__info">
                             <div>
@@ -316,6 +318,14 @@
                     </div>
                     <div class="skills_list">
                         <div>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="100px"/>
+                        </div>
+                        <div>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="skills_list">
+                        <div>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-plain.svg" width="100px"/>
                         </div>
                         <div>
@@ -328,6 +338,14 @@
                         </div>
                         <div>
                             <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills_list">
+                        <div>
+                            <img src="assets/img/odoo.png" width="120px"/>
+                        </div>
+                        <div>
+                            <span>Odoo</span>
                         </div>
                     </div>
                     <div class="skills_list">
@@ -747,13 +765,13 @@
             </section>
 
             <!--==================== PROJECTS ====================-->
-<!--             <section class="project section" id="project">
+            <section class="project section" id="project">
                 <h2 class="section__title">Projects</h2>
                 <span class="section__subtitle">Most Recent Work</span>
 
                 <div class="project__container container swiper-container">
                     <div class="swiper-wrapper">
-                        ==================== PORTFOLIO 1 ====================
+                        <!--==================== PORTFOLIO 1 ====================-->
                         <div class="project__content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
 
@@ -767,7 +785,7 @@
                             </div>
                         </div>
 
-                        ==================== PORTFOLIO 2 ====================
+                        <!--==================== PORTFOLIO 2 ====================-->
                         <div class="project__content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
 
@@ -781,7 +799,7 @@
                             </div>
                         </div>
 
-                        ==================== PORTFOLIO 3 ====================
+                        <!--==================== PORTFOLIO 3 ====================-->
                         <div class="project__content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
 
@@ -806,7 +824,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
- -->
+
             <!--==================== PROJECT IN MIND ====================-->
             <!-- <section class="project section">
 
@@ -843,33 +861,37 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formspree.io/f/xjvnwejn" class="contact__form grid"  method="POST">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="name" class="contact__input" required="1">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" class="contact__input" name="email" required="1">
                             </div>
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="project" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required="1"></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+                                <!-- <a href="#" class="button button--flex" type="submit">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </a> -->
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -907,10 +929,14 @@
                         <a href="https://www.linkedin.com/in/m1tul16" class="footer__social">
                             <i class="uil uil-linkedin"></i>
                         </a>
+
+                        <a href="https://github.com/m1tul12" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
                     </div>
                 </div>
 
-                <p class="footer__copy">&#169; Mitul Dave. All right reserved</p>
+                <p class="footer__copy">&#169; Designed with ❤️ by Mitul Dave</p>
             </div>
         </footer>
         
@@ -929,7 +955,7 @@
 
         <script>
             var typed = new Typed(".auto-type", {
-                strings : ["Jr. Full Stack Developer", " Jr. Odoo Developer"],
+                strings : ["Jr. Full Stack Developer", " Jr. Odoo Developer", "Jr. Front End Developer"],
                 typeSpeed : 40,
                 backSpeed : 40,
                 loop : true
