@@ -1,965 +1,518 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        
-        <!--==================== DEVICON ====================-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171862_l7yZ0wujj8o2SowiKTUsfLEEx8KunYNd.jpg"/>
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/online-education-modern-3d-illustration-happy-junior-school-boy-student-working-pc_839035-142256.avif" type="image/x-icon">
 
-        <title>Mitul Dave | Portfolio</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="" class="nav__logo">Mitul</a>
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
 
-               <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">  
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Qualification
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
-                        <!-- <li class="nav__item">
-                            <a href="#project" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Projects
-                            </a>
-                        </li> -->
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Mitul Dave | Portfolio</title>
+   </head>
+
+   <body>
+      <!--==================== NAV ====================-->
+      <nav class="nav">
+         <ul class="nav__list">
+            <li>
+               <a href="#home" title="Home" class="nav__link active-link">
+                  <i class="ri-home-line"></i>
+               </a>
+            </li>
+
+            <li>
+               <a href="#projects" title="Projects" class="nav__link">
+                  <i class="ri-folder-line"></i>
+               </a>
+            </li>
+
+            <li>
+               <a href="#services" title="Services" class="nav__link">
+                  <i class="ri-file-edit-line"></i>
+               </a>
+            </li>
+
+            <li>
+               <a href="#testimonial" title="Testimonial" class="nav__link">
+                  <i class="ri-honour-line"></i>
+               </a>
+            </li>
+
+            <li>
+               <a href="#contact" title="Contact" class="nav__link">
+                  <i class="ri-send-plane-line"></i>
+               </a>
+            </li>
+
+         </ul>
+      </nav>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <!--===== PERFIL =====-->
+               <div class="perfil">
+                  <img src="assets/img/19362653.png" alt="image" class="perfil__img">
+
+                  <div class="perfil__data">
+                     <h1 class="perfil__name">Mitul <br> Dave</h1>
+                     <div class="perfil__buttons">
+                        <a href="#projects" class="button">Projects</a>
+                        <a href="#services" class="button button__black">Services</a>
+                     </div>
+                  </div>
                </div>
 
-               <div class="nav__btns">
-                    <!-- Theme Change Button -->
-                	<i class="uil uil-moon change-theme" id="theme-button"></i>
+               <!--===== INFO =====-->
+               <div class="info">
+                  <div class="info__data">
+                     <div class="info__circle"></div>
+                     <h1 class="info__name">Mitul Dave</h1>
+                  </div>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
+                  <div class="info__image">
+                     <img src="assets/img/view-3d-businessman.jpg" alt="image" class="info__img">
+                  </div>
+
+                  <p class="info__description">
+                     Passionate about developing and customizing Odoo applications 
+                     with the most engaging and user-friendly interfaces.
+                  </p>
+
+                  <a href="assets/pdf/Xian-Cv.pdf" download target="_blank" class="button button__black">Download CV</a>
                </div>
-            </nav>
-        </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/m1tul16" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-
-                            <a href="https://github.com/m1tul12" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-
-                            <a href="https://www.instagram.com/hyy._.mitull" target="_blank" class="home__social-icon">
-                                <i class="uil uil-instagram"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="40" y="28" xlink:href="assets/img/mitul.png"/>
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Mitul Dave</h1>
-                            <h2 class="home_subtitle"><span class=" auto-type"></span>
-                            </h2>
-                            <p class="home__description">I'm a passionate Full Stack Developer with a love for creating elegant and efficient solutions to complex problems.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My Introduction</span>
-            
-                <div class="about__container container grid">
-                    <img src="assets/img/pic.png" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">
-                            <p class="home__description">
-                                I am a dedicated and enthusiastic Junior Full Stack Developer with a focus on Odoo development. My journey into the world of technology began with a profound curiosity and a desire to create impactful solutions. With a solid foundation in programming languages like Python, JavaScript, HTML, and CSS, I embarked on a journey to explore the realms of web development and enterprise resource planning systems.
-                            </p>
-                        </p>
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">06+</span>
-                                <span class="about__info-name">Months <br> Experience</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">02+</span>
-                                <span class="about__info-name">Completed <br> Projects</span>
-                            </div>
-
-                        </div>
-
-                        <div class="about__buttons">
-                            <a download="" href="assets/pdf/Mitul's Resume.pdf" class="button button--flex">
-                                Download CV<i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My Technical Level</span>
-
-                <div class="skills__container container grid">
-                    <!-- <div>
-                        ==================== SKILLS 1 ====================
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frontend</h1>
-                                    <span class="skills__subtitle">More Than 1 Year</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">CSS</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__css"></span>
-                                    </div>
-
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Java Script</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__js"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        ==================== SKILLS 2 ====================
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-server-network skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Backend</h1>
-                                    <span class="skills__subtitle">More Than 6 Months</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">JAVA</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__java"></span>
-                                    </div>
-
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">C</h3>
-                                        <span class="skills__number">40%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__c"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        ==================== SKILLS 3 ====================
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-database skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Database</h1>
-                                    <span class="skills__subtitle">More Than 6 Months</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">MySQL</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__mysql"></span>
-                                    </div>
-
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">PostgreSQL</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__psql"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>HTML</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>CSS</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>Bootstrap</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-plain.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>XML</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo.png" width="120px"/>
-                        </div>
-                        <div>
-                            <span>Odoo</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>Python</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>JAVA</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>MySQL</span>
-                        </div>
-                    </div>
-                    <div class="skills_list">
-                        <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="100px"/>
-                        </div>
-                        <div>
-                            <span>PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My Personal Journey</span>
-
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target="#education">
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
-                        </div>
-
-                        <div class="qualification__button button--flex" data-target="#work">
-                            <i class="uil uil-briefcase-alt qualification__icon"></i>
-                            Work
-                        </div>
-                    </div>
-                    
-                    <div class="qualification__sections">
-                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                        <div class="qualification__content qualification__active" data-content id="education">
-                            <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">SSC</h3>
-                                    <span class="qualification__subtitle">Navchetan High School - Ahmedabad</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2018 - 2019
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">HSC</h3>
-                                    <span class="qualification__subtitle">Navchetan High School - Ahmedabad</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020 - 2021
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification__data">
-                                
-                                <div>
-                                    <h3 class="qualification__title"> Computer Engineering / B.Tech </h3>
-                                    <span class="qualification__subtitle">Silver Oak University - Ahmedabad</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2021 - Present
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                        <div class="qualification__content" data-content id="work"> 
-                            <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Internship Trainee ( Apprenticeship )</h3>
-                                    <span class="qualification__subtitle">CandidRoot Solutions Pvt. Ltd</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        Aug 2023 - Jan 2024
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Jr. Full Stack Developer / Odoo Developer</h3>
-                                    <span class="qualification__subtitle">CandidRoot Solutions Pvt. Ltd</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        Jan 2024 - Present
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What I Offer</span>
-
-                <div class="services__container container grid">
-                    <!--==================== SERVICES 1 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/Implementation.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Odoo Implementation</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Odoo Implementation</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Streamline your business operations with our expert Odoo Implementation service tailored to your unique requirements.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Unlock the full potential of Odoo's integrated solutions as we seamlessly configure and deploy the platform for your organization.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>From initial setup to comprehensive training, our team ensures a smooth transition, minimizing disruptions to your workflow.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Experience enhanced efficiency, collaboration, and scalability as we optimize and customize Odoo to align with your business goals.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICES 2 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/Customization.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Odoo Customization</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Odoo Customization</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Transform Odoo to fit your specific requirements with our tailored customization service.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Our experts specialize in fine-tuning Odoo modules to align perfectly with your business processes.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>From personalized workflows to bespoke reports, we ensure Odoo reflects your unique needs and goals.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Unlock the full potential of Odoo by customizing features and functionalities to enhance your business operations.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Experience seamless integration and improved performance with our precise Odoo customization solutions, designed exclusively for you.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICES 3 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/Development.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Odoo <br/>Development</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More<i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Odoo Development</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Leverage our expertise in Odoo Development to customize and extend the functionality of your system.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>From custom modules to intricate integrations, we tailor Odoo to fit your specific business requirements.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Our skilled developers ensure seamless compatibility and scalability, empowering your business for growth.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Trust in our commitment to delivering high-quality solutions that enhance efficiency and drive innovation.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Elevate your Odoo experience with our comprehensive development services, designed to optimize your operations and propel your success</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICES 4  ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/Odoo Theme Development.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Theme Development</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More<i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Theme Development</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Transform your online presence with our bespoke Theme Development service tailored to reflect your brand's identity.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>From concept to execution, our team crafts visually stunning and highly functional themes to captivate your audience.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Elevate user experience with intuitive designs optimized for seamless navigation and engagement across all devices.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Stand out in the digital landscape with custom-built themes that not only impress but also drive conversions and growth.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Experience the perfect blend of aesthetics and performance with our Theme Development service, ensuring your website leaves a lasting impression.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICES 5 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/migration.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Odoo <br>Migration</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More<i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Odoo Migration</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Seamlessly transition to the latest version of Odoo with our expert Migration service.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Safeguard your data integrity and ensure a smooth upgrade process with our meticulous approach.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Unlock enhanced features and performance while minimizing disruptions to your daily operations.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Trust our experienced team to handle every aspect of your Odoo migration, from planning to execution.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Embrace the future of your business with confidence, knowing that your Odoo migration is in capable hands.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICES 6 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class="uil uil-web-grid services__icon"></i> -->
-                            <img src="assets/img/Odoo Support.png" class="services__img" width="90px"/>
-                            <h3 class="services__title">Odoo <br>Support</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More<i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Odoo Support</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Gain peace of mind with our dedicated Odoo Support service, tailored to keep your operations running smoothly.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>From troubleshooting to customization assistance, our team is here to resolve any issues swiftly and efficiently.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Stay ahead of challenges with proactive maintenance and regular updates, ensuring optimal performance of your Odoo system.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Access expert guidance and personalized support whenever you need it, empowering you to leverage Odoo's full potential.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Trust in our commitment to your success, as we provide responsive and reliable support to drive your business forward.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PROJECTS ====================-->
-<!--             <section class="project section" id="project">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">Most Recent Work</span>
-
-                <div class="project__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        ==================== PORTFOLIO 1 ====================
-                        <div class="project__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
-
-                            <div class="rojecto__data">
-                                <h3 class="rojecto__title">Device & Rent<br>Management System</h3>
-                                <p class="project__description">a new gen device & rent managemnt system.</p>
-                                <a href="#" class="button button--flex button--small project__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        ==================== PORTFOLIO 2 ====================
-                        <div class="project__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
-
-                            <div class="project__data">
-                                <h3 class="project__title">Device & Rent<br>Management System</h3>
-                                <p class="project__description">a new gen device & rent managemnt system.</p>
-                                <a href="#" class="button button--flex button--small project__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        ==================== PORTFOLIO 3 ====================
-                        <div class="project__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
-
-                            <div class="project__data">
-                                <h3 class="rojecto__title">Device & Rent Management System</h3>
-                                <p class="project__description">a new gen device & rent managemnt system.</p>
-                                <a href="#" class="button button--flex button--small project__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-project-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-project-icon"></i>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
- -->
-            <!--==================== PROJECT IN MIND ====================-->
-            <!-- <section class="project section">
-
-            </section> -->
-
-            <!--==================== TESTIMONIAL ====================-->
-            <!-- <section class="testimonial section">
-                
-            </section> -->
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h3 class="section__title">Contact Me</h3>
-                <span class="section__subtitle">Get In Touch</span>
-
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">mitul.dave16@gmail.com</span>
-                            </div>
-                        </div>
-                        
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Ahmedabad - Gujarat</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="https://formspree.io/f/xjvnwejn" class="contact__form grid"  method="POST">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" name="name" class="contact__input" required="1">
-                            </div>
-
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input" name="email" required="1">
-                            </div>
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" name="project" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required="1"></textarea>
-                        </div>
-
-                        <div>
-                            <button type="submit" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                                <!-- <a href="#" class="button button--flex" type="submit">
-                                    Send Message
-                                    <i class="uil uil-message button__icon"></i>
-                                </a> -->
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Mitul</h1>
-                        <span class="footer__subtitle">Jr. Full Stack Developer / Odoo Developer</span>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#services" class="footer__link">Services</a>
-                        </li>
-
-                        <li>
-                            <a href="#project" class="footer__link">Projects</a>
-                        </li>
-
-                        <li>
-                            <a href="#contact" class="footer__link">Get In Touch</a>
-                        </li>
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.instagram.com/hyy._.mitull" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/m1tul16" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-
-                        <a href="https://github.com/m1tul12" class="footer__social">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Designed with ❤️ by Mitul Dave</p>
+               <!--===== ABOUT =====-->
+               <div class="about">
+                  <h3 class="about__name">
+                     Mitul Dave - <b>Odoo ERP Developer</b>
+                  </h3>
+
+                  <p class="about__description">
+                     Located in India, I have several years of experience as an Odoo developer, specializing in building, customising, and deploying Odoo solutions.
+                  </p>
+
+                  <div class="about__social">
+                     <a href="https://www.linkedin.com/in/m1tul16/" target="_blank" class="about__link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                     <a href="https://github.com/mitul-dave" target="_blank" class="about__link">
+                        <i class="ri-github-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="about__image">
+                     <img src="assets/img/happy-3d-cartoon-man-using-laptop.avif" alt="image" class="about__img">
+                  </div>
+
+                  <p class="about__note">
+                     He doesn't write messages on social networks,
+                     send me an email and I'll answer you.
+                  </p>
+
+                  <a href="#contact" class="button">Contact Me</a>
+               </div>
+
+               <!--===== SKILLS =====-->
+               <div class="skills">
+                  <h2 class="skills__title">Skills</h2>
+                  <div class="skills__items">
+                     <img src="assets/img/skills/skills-odoo.svg" alt="image" title="Odoo" class="skills__item">
+                     <img src="assets/img/skills/skills-html.svg" alt="image" title="HTML" class="skills__item">
+                     <img src="assets/img/skills/skills-xml-2.svg" alt="image" title="XML" class="skills__item">
+                     <img src="assets/img/skills/skills-css.svg" alt="image" title="CSS" class="skills__item">
+                     <img src="assets/img/skills/skills-bootstrap-5-1.svg" alt="image" title="Bootstrap" class="skills__item">
+                     <img src="assets/img/skills/skills-sass.svg" alt="image" title="SCSS" class="skills__item">
+                     <img src="assets/img/skills/skills-javascript.svg" alt="image" title="JavaScript" class="skills__item">
+                     <img src="assets/img/skills/skills-jquery-4.svg" alt="image" title="JQuery" class="skills__item">
+                     <img src="assets/img/skills/skills-python-5.svg" alt="image" title="Python" class="skills__item">
+                     <img src="assets/img/skills/skills-postgresql.svg" alt="image" title="PostgresSQL" class="skills__item">
+                     <img src="assets/img/skills/skills-git.svg" alt="image" title="Git" class="skills__item">
+                     <img src="assets/img/skills/skills-github.svg" alt="image" title="Github" class="skills__item">
+                  </div>
+                  <p class="skills__description">
+                     Visit the projects section to see the
+                     work done with these web technologies.
+                  </p>
+               </div>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+         </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title">RECENT PROJECTS</h2>
+            <div class="projects__container container grid">
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
+               <article class="projects__card">
+                  <a href="#" class="projects__image">
+                     <img src="assets/img/projects-2.jpg" alt="image" class="projects__img">
+                  </a>
 
-        <script src="assets/js/auto-type.js"></script>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Mechpower Technology</h3>
+                     <p class="projects__description">
+                        Designed and developed a responsive website, including a shop page and custom pages, 
+                        with attractive styling and seamless workflows to enhance user experience and engagement.
+                     </p>
 
-        <script>
-            var typed = new Typed(".auto-type", {
-                strings : ["Jr. Full Stack Developer", " Jr. Odoo Developer", "Jr. Front End Developer"],
-                typeSpeed : 40,
-                backSpeed : 40,
-                loop : true
-            })
-        </script>
-    </body>
+                     <div class="projects__skills">
+                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-css.svg" title="CSS" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
+                     </div>
+
+                     <a href="#" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visit Project</span>
+                     </a>
+                     
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" class="projects__image">
+                     <img src="assets/img/projects-1.jpg" alt="image" class="projects__img">
+                  </a>
+
+                  <div class="projects__data">
+                     <h3 class="projects__name">DHL Partner Site Revamp</h3>
+                     <p class="projects__description">
+                        Transformed DHL's partner site with a sleek, modern design, enhanced functionality, 
+                        and a user-focused experience to streamline interactions and boost engagement.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
+                        
+                     </div>
+
+                     <a href="https://mahrilogistics.com/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visit Project</span>
+                     </a>
+                     
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" class="projects__image">
+                     <img src="assets/img/projects-4.jpg" alt="image" class="projects__img">
+                  </a>
+
+                  <div class="projects__data">
+                     <h3 class="projects__name">Aljihad Company E-Commerce Development</h3>
+                     <p class="projects__description">
+                        Developed a dynamic e-commerce website with advanced product configuration by category and brand. 
+                        Designed custom pages for shop advertisements and optimized the homepage to showcase products organized 
+                        by brands and categories for a seamless shopping experience.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-css.svg" title="CSS" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
+                     </div>
+
+                     <!-- <a href="#" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visit Project</span>
+                     </a> -->
+                     
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" class="projects__image">
+                     <img src="assets/img/projects-3.jpg" alt="image" class="projects__img">
+                  </a>
+
+                  <div class="projects__data">
+                     <h3 class="projects__name">Hr Policy [ Custom Module ]</h3>
+                     <p class="projects__description">
+                        Developed a custom HR Policy module enabling three-level access control:<br><br>
+                        1. Main Manager (e.g., CEO) with full access and management.<br>
+                        2. Job Position Managers with restricted access to policies related to their roles.<br>
+                        3. Employees with view-only access to assigned policies.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
+                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
+                     </div>
+
+                     <!-- <a href="#" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visit Project</span>
+                     </a> -->
+                     
+                  </div>
+               </article>
+            </div>
+
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title">SERVICES I OFFER</h2>
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-code-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Development</h3>
+                  <p class="services__description">
+                     Creating robust, custom Odoo applications tailored to your specific business needs, 
+                     helping you automate and enhance operations.
+                  </p>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-settings-5-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Implementation</h3>
+                  <p class="services__description">
+                     Expertly implementing Odoo to ensure smooth integration into your existing workflows, 
+                     reducing downtime and maximizing efficiency.
+                  </p>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-brush-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Customisation</h3>
+                  <p class="services__description">
+                     Customizing Odoo modules and features to fit the unique requirements of your business, 
+                     improving overall functionality and user experience.
+                  </p>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-refresh-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Migration</h3>
+                  <p class="services__description">
+                     Assisting with seamless data migration from legacy systems to Odoo, 
+                     ensuring data integrity and minimal disruption during the transition.
+                  </p>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-shopping-cart-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Ecommerce Development</h3>
+                  <p class="services__description">
+                     Building feature-rich, user-friendly eCommerce websites integrated with Odoo to optimize sales, 
+                     inventory management, and customer engagement.
+                  </p>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__icon">
+                     <div class="services__circle"></div>
+                     <i class="ri-customer-service-2-line"></i>
+                  </div>
+
+                  <h3 class="services__name">Odoo Support</h3>
+                  <p class="services__description">
+                     Providing reliable, ongoing support to ensure your Odoo system is always running smoothly, 
+                     including troubleshooting, maintenance, and updates.
+                  </p>
+               </article>
+            </div>
+
+         </section>
+
+         <!--==================== EXPERIENCE & TESTIMONIAL ====================-->
+         <!-- <section class="experience section" id="experience">
+            <h2 class="section__title">EXPERIENCE OR WORK</h2>
+            <div class="experience__container container grid">
+               <article class="experience__card">
+                  <h2 class="experience__company">Adobe</h2>
+
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Website Development</h3>
+                     <span class="experience__date">08/24 - Present</span>
+                     <p class="experience__description">
+                        Short description of the work 
+                        you do or did in the company.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="experience__card">
+                  <h2 class="experience__company">Google</h2>
+
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Web Product Designer</h3>
+                     <span class="experience__date">02/22 - 01/23</span>
+                     <p class="experience__description">
+                        Short description of the work 
+                        you do or did in the company.
+                     </p>
+                  </div>
+               </article>
+               
+               <article class="experience__card">
+                  <h2 class="experience__company">Figma</h2>
+
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Web Designer</h3>
+                     <span class="experience__date">05/23 - 11/23</span>
+                     <p class="experience__description">
+                        Short description of the work 
+                        you do or did in the company.
+                     </p>
+                  </div>
+               </article>
+            </div>
+
+         </section> -->
+
+         <section class="testimonial section" id="testimonial">
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide testimonial__card">
+                        <img src="assets/img/testimonial/asthatechnologysolutions_logo.jpeg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Astha Technology</h3>
+                        <p class="testimonial__destimonial">Great experience working with him, delivered excellent work promptly and efficiently!
+                  </div>
+
+                  <!-- <div class="swiper-slide testimonial__card">
+                        <img src="assets/img/testimonial/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Paula Vusy</h3>
+                        <p class="testimonial__destimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  </div>
+
+                  <div class="swiper-slide testimonial__card">
+                        <img src="assets/img/testimonial/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Sara Cill</h3>
+                        <p class="testimonial__destimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  </div> -->
+               </div>
+
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            
+            <h2 class="section__title">CONTACT ME</h2>
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+                     <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                  </div>
+
+                  <textarea name="user_message" placeholder="Message" id="" class="contact__input contact__area"></textarea>
+
+                  <button type="submit" class="button contact__button">Send Message</button>
+
+                  <p class="contact__message" id="contact-message"></p>
+               </form>
+            </div>
+
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <a href="#" class="footer__logo">Mitul</a>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#home" class="footer__link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#projects" class="footer__link">Projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#services" class="footer__link">Services</a>
+                  </li>
+
+                  <li>
+                     <a href="#testimonial" class="footer__link">Testimonial</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="footer__social">
+               <a href="https://www.instagram.com/hyy._.mitull/" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+
+               <a href="https://www.linkedin.com/in/m1tul16/" target="_blank" class="footer__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+               </a>
+            </div>
+         </div>
+         <span class="footer__copy">
+            Designed with ❤️ by Mitul Dave
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+
 </html>
