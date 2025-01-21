@@ -192,7 +192,7 @@ img {
 }
 
 .perfil__img{
-  width: 250px;
+  /* width: 250px; */
   position: absolute;
   justify-self: center;
   /* align-self: flex-end; */
@@ -311,7 +311,7 @@ img {
 }
 
 .about__img{
-  width:250px;
+  /* width:250px; */
   justify-self: center;
   transform: translateY(-2.5rem);
 }
