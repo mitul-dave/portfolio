@@ -1,518 +1,975 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitul Dave | Portfolio</title>
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/online-education-modern-3d-illustration-happy-junior-school-boy-student-working-pc_839035-142256.avif" type="image/x-icon">
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-      
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-      <title>Mitul Dave | Portfolio</title>
-   </head>
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
 
-   <body>
-      <!--==================== NAV ====================-->
-      <nav class="nav">
-         <ul class="nav__list">
-            <li>
-               <a href="#home" title="Home" class="nav__link active-link">
-                  <i class="ri-home-line"></i>
-               </a>
+  </head>
+
+  <body>
+
+    <!--
+      - #MAIN
+    -->
+
+    <main>
+
+      <!--
+        - #SIDEBAR
+      -->
+
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Mitul Dave" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Mitul Dave">Mitul Dave</h1>
+
+            <p class="title">Odoo ERP Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:mitul.dave16@gmail.com" class="contact-link">mitul.dave16@gmail.com</a>
+              </div>
+
             </li>
 
-            <li>
-               <a href="#projects" title="Projects" class="nav__link">
-                  <i class="ri-folder-line"></i>
-               </a>
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919427954825" class="contact-link">+91 94279 54825</a>
+              </div>
+
             </li>
 
-            <li>
-               <a href="#services" title="Services" class="nav__link">
-                  <i class="ri-file-edit-line"></i>
-               </a>
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2003-12-16">December 16, 2003</time>
+              </div>
+
             </li>
 
-            <li>
-               <a href="#testimonial" title="Testimonial" class="nav__link">
-                  <i class="ri-honour-line"></i>
-               </a>
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ahmedabad, Gujarat, India</address>
+              </div>
+
             </li>
 
-            <li>
-               <a href="#contact" title="Contact" class="nav__link">
-                  <i class="ri-send-plane-line"></i>
-               </a>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <!-- <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li> -->
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/m1tul16/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
             </li>
 
-         </ul>
-      </nav>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <!--===== PERFIL =====-->
-               <div class="perfil">
-                  <img src="assets/img/19362653.png" alt="image" class="perfil__img">
+          </ul>
 
-                  <div class="perfil__data">
-                     <h1 class="perfil__name">Mitul <br> Dave</h1>
-                     <div class="perfil__buttons">
-                        <a href="#projects" class="button">Projects</a>
-                        <a href="#services" class="button button__black">Services</a>
-                     </div>
-                  </div>
-               </div>
+        </div>
 
-               <!--===== INFO =====-->
-               <div class="info">
-                  <div class="info__data">
-                     <div class="info__circle"></div>
-                     <h1 class="info__name">Mitul Dave</h1>
-                  </div>
+      </aside>
 
-                  <div class="info__image">
-                     <img src="assets/img/view-3d-businessman.jpg" alt="image" class="info__img">
-                  </div>
 
-                  <p class="info__description">
-                     Passionate about developing and customizing Odoo applications 
-                     with the most engaging and user-friendly interfaces.
+
+
+
+      <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Passionate about developing and customizing Odoo applications with the most engaging and user-friendly interfaces.
+            </p>
+
+            <p>
+              Located in India, I have several years of experience as an Odoo developer, specializing in building, customising, and deploying Odoo solutions.
+            </p>
+          </section>
+
+
+          <!--
+            - service
+          -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-design.svg
+                  " alt="design icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-code-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Development</h4>
+
+                  <p class="service-item-text">
+                    Creating robust, custom Odoo applications tailored to your specific business needs, helping you automate and enhance operations.
                   </p>
+                </div>
 
-                  <a href="#" download target="_blank" class="button button__black">Download CV</a>
-               </div>
+              </li>
 
-               <!--===== ABOUT =====-->
-               <div class="about">
-                  <h3 class="about__name">
-                     Mitul Dave - <b>Odoo ERP Developer</b>
-                  </h3>
+              <li class="service-item">
 
-                  <p class="about__description">
-                     Located in India, I have several years of experience as an Odoo developer, specializing in building, customising, and deploying Odoo solutions.
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-dev.svg" alt="Odoo Implementation icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-settings-5-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Implementation</h4>
+
+                  <p class="service-item-text">
+                    Expertly implementing Odoo to ensure smooth integration into your existing workflows, reducing downtime and maximizing efficiency.
                   </p>
+                </div>
 
-                  <div class="about__social">
-                     <a href="https://www.linkedin.com/in/m1tul16/" target="_blank" class="about__link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                     <a href="https://github.com/mitul-dave" target="_blank" class="about__link">
-                        <i class="ri-github-line"></i>
-                     </a>
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-brush-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Customisation</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and Android.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-refresh-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Migration</h4>
+
+                  <p class="service-item-text">
+                    Assisting with seamless data migration from legacy systems to Odoo, ensuring data integrity and minimal disruption during the transition.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-shopping-cart-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Ecommerce Development</h4>
+
+                  <p class="service-item-text">
+                    Building feature-rich, user-friendly eCommerce websites integrated with Odoo to optimize sales, inventory management, and customer engagement.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <!-- <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> -->
+                  <div class="services__circle"></div>
+                  <i class="ri-customer-service-line"></i>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo Support</h4>
+
+                  <p class="service-item-text">
+                    Providing reliable, ongoing support to ensure your Odoo system is always running smoothly, including troubleshooting, maintenance, and updates.
+                  </p>
+                </div>
+
+              </li>
+            </ul>
+
+          </section>
+
+
+          <!--
+            - testimonials
+          -->
+
+          <section class="testimonials">
+
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Astha Technology" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Astha Technology</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Great experience working with him, delivered excellent work promptly and efficiently!
+                    </p>
                   </div>
 
-                  <div class="about__image">
-                     <img src="assets/img/happy-3d-cartoon-man-using-laptop.avif" alt="image" class="about__img">
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Jozo Bazant" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Jozo Bazant</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Mitul delivered good work on this Odoo development project and I enjoyed working with him. I enjoyed working with Mitul and will likely have additional jobs for him in the future.
+                    </p>
                   </div>
 
-                  <p class="about__note">
-                     He doesn't write messages on social networks,
-                     send me an email and I'll answer you.
-                  </p>
+                </div>
+              </li>
 
-                  <a href="#contact" class="button">Contact Me</a>
-               </div>
+            </ul>
 
-               <!--===== SKILLS =====-->
-               <div class="skills">
-                  <h2 class="skills__title">Skills</h2>
-                  <div class="skills__items">
-                     <img src="assets/img/skills/skills-odoo.svg" alt="image" title="Odoo" class="skills__item">
-                     <img src="assets/img/skills/skills-html.svg" alt="image" title="HTML" class="skills__item">
-                     <img src="assets/img/skills/skills-xml-2.svg" alt="image" title="XML" class="skills__item">
-                     <img src="assets/img/skills/skills-css.svg" alt="image" title="CSS" class="skills__item">
-                     <img src="assets/img/skills/skills-bootstrap-5-1.svg" alt="image" title="Bootstrap" class="skills__item">
-                     <img src="assets/img/skills/skills-sass.svg" alt="image" title="SCSS" class="skills__item">
-                     <img src="assets/img/skills/skills-javascript.svg" alt="image" title="JavaScript" class="skills__item">
-                     <img src="assets/img/skills/skills-jquery-4.svg" alt="image" title="JQuery" class="skills__item">
-                     <img src="assets/img/skills/skills-python-5.svg" alt="image" title="Python" class="skills__item">
-                     <img src="assets/img/skills/skills-postgresql.svg" alt="image" title="PostgresSQL" class="skills__item">
-                     <img src="assets/img/skills/skills-git.svg" alt="image" title="Git" class="skills__item">
-                     <img src="assets/img/skills/skills-github.svg" alt="image" title="Github" class="skills__item">
-                  </div>
-                  <p class="skills__description">
-                     Visit the projects section to see the
-                     work done with these web technologies.
+          </section>
+
+          <!--
+            - testimonials modal
+          -->
+
+          <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+
+              <div class="modal-content">
+
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
-               </div>
+                </div>
+
+              </div>
+
+            </section>
+
+          </div>
+
+          <!--
+            - clients
+          -->
+
+          <section class="clients">
+
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+
+              <li class="clients-item">
+                <a href="https://www.asthatechnology.com/">
+                  <img src="./assets/images/astha_technology.png" alt="client logo">
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
             </div>
-         </section>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            <h2 class="section__title">RECENT PROJECTS</h2>
-            <div class="projects__container container grid">
+            <ol class="timeline-list">
 
-               <article class="projects__card">
-                  <a href="#" class="projects__image">
-                     <img src="assets/img/projects-2.jpg" alt="image" class="projects__img">
-                  </a>
-
-                  <div class="projects__data">
-                     <h3 class="projects__name">Mechpower Technology</h3>
-                     <p class="projects__description">
-                        Designed and developed a responsive website, including a shop page and custom pages, 
-                        with attractive styling and seamless workflows to enhance user experience and engagement.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-css.svg" title="CSS" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
-                     </div>
-
-                     <a href="https://mechpowertech.com/" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visit Project</span>
-                     </a>
-                     
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <a href="#" class="projects__image">
-                     <img src="assets/img/projects-1.jpg" alt="image" class="projects__img">
-                  </a>
-
-                  <div class="projects__data">
-                     <h3 class="projects__name">DHL Partner Site Revamp</h3>
-                     <p class="projects__description">
-                        Transformed DHL's partner site with a sleek, modern design, enhanced functionality, 
-                        and a user-focused experience to streamline interactions and boost engagement.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
-                        
-                     </div>
-
-                     <a href="https://mahrilogistics.com/" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visit Project</span>
-                     </a>
-                     
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <a href="#" class="projects__image">
-                     <img src="assets/img/projects-4.jpg" alt="image" class="projects__img">
-                  </a>
-
-                  <div class="projects__data">
-                     <h3 class="projects__name">Aljihad Company E-Commerce Development</h3>
-                     <p class="projects__description">
-                        Developed a dynamic e-commerce website with advanced product configuration by category and brand. 
-                        Designed custom pages for shop advertisements and optimized the homepage to showcase products organized 
-                        by brands and categories for a seamless shopping experience.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-sass.svg" title="SASS" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-css.svg" title="CSS" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-jquery-4.svg" title="JQuery" alt="image" class="projects__skill">
-                     </div>
-
-                     <!-- <a href="#" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visit Project</span>
-                     </a> -->
-                     
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <a href="#" class="projects__image">
-                     <img src="assets/img/projects-3.jpg" alt="image" class="projects__img">
-                  </a>
-
-                  <div class="projects__data">
-                     <h3 class="projects__name">Hr Policy [ Custom Module ]</h3>
-                     <p class="projects__description">
-                        Developed a custom HR Policy module enabling three-level access control:<br><br>
-                        1. Main Manager (e.g., CEO) with full access and management.<br>
-                        2. Job Position Managers with restricted access to policies related to their roles.<br>
-                        3. Employees with view-only access to assigned policies.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills/skills-odoo.svg" title="Odoo" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-xml-2.svg" title="XML" alt="image" class="projects__skill">
-                        <img src="assets/img/skills/skills-python-5.svg" title="Python" alt="image" class="projects__skill">
-                     </div>
-
-                     <!-- <a href="#" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visit Project</span>
-                     </a> -->
-                     
-                  </div>
-               </article>
-            </div>
-
-         </section>
-
-         <!--==================== SERVICES ====================-->
-         <section class="services section" id="services">
-            <h2 class="section__title">SERVICES I OFFER</h2>
-            <div class="services__container container grid">
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-code-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Development</h3>
-                  <p class="services__description">
-                     Creating robust, custom Odoo applications tailored to your specific business needs, 
-                     helping you automate and enhance operations.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-settings-5-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Implementation</h3>
-                  <p class="services__description">
-                     Expertly implementing Odoo to ensure smooth integration into your existing workflows, 
-                     reducing downtime and maximizing efficiency.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-brush-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Customisation</h3>
-                  <p class="services__description">
-                     Customizing Odoo modules and features to fit the unique requirements of your business, 
-                     improving overall functionality and user experience.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-refresh-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Migration</h3>
-                  <p class="services__description">
-                     Assisting with seamless data migration from legacy systems to Odoo, 
-                     ensuring data integrity and minimal disruption during the transition.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-shopping-cart-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Ecommerce Development</h3>
-                  <p class="services__description">
-                     Building feature-rich, user-friendly eCommerce websites integrated with Odoo to optimize sales, 
-                     inventory management, and customer engagement.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__icon">
-                     <div class="services__circle"></div>
-                     <i class="ri-customer-service-2-line"></i>
-                  </div>
-
-                  <h3 class="services__name">Odoo Support</h3>
-                  <p class="services__description">
-                     Providing reliable, ongoing support to ensure your Odoo system is always running smoothly, 
-                     including troubleshooting, maintenance, and updates.
-                  </p>
-               </article>
-            </div>
-
-         </section>
-
-         <!--==================== EXPERIENCE & TESTIMONIAL ====================-->
-         <!-- <section class="experience section" id="experience">
-            <h2 class="section__title">EXPERIENCE OR WORK</h2>
-            <div class="experience__container container grid">
-               <article class="experience__card">
-                  <h2 class="experience__company">Adobe</h2>
-
-                  <div class="experience__data">
-                     <h3 class="experience__profession">Website Development</h3>
-                     <span class="experience__date">08/24 - Present</span>
-                     <p class="experience__description">
-                        Short description of the work 
-                        you do or did in the company.
-                     </p>
-                  </div>
-               </article>
-
-               <article class="experience__card">
-                  <h2 class="experience__company">Google</h2>
-
-                  <div class="experience__data">
-                     <h3 class="experience__profession">Web Product Designer</h3>
-                     <span class="experience__date">02/22 - 01/23</span>
-                     <p class="experience__description">
-                        Short description of the work 
-                        you do or did in the company.
-                     </p>
-                  </div>
-               </article>
-               
-               <article class="experience__card">
-                  <h2 class="experience__company">Figma</h2>
-
-                  <div class="experience__data">
-                     <h3 class="experience__profession">Web Designer</h3>
-                     <span class="experience__date">05/23 - 11/23</span>
-                     <p class="experience__description">
-                        Short description of the work 
-                        you do or did in the company.
-                     </p>
-                  </div>
-               </article>
-            </div>
-
-         </section> -->
-
-<!--         <section class="testimonial section" id="testimonial">-->
-<!--            <h2 class="section__title">Testimonial</h2>-->
-
-<!--            <div class="testimonial__container container swiper">-->
-<!--               <div class="swiper-wrapper">-->
-<!--                  <div class="swiper-slide testimonial__card">-->
-<!--                        <img src="assets/img/testimonial/asthatechnologysolutions_logo.jpeg" alt="" class="testimonial__img">-->
-
-<!--                        <h3 class="testimonial__name">Astha Technology</h3>-->
-<!--                        <p class="testimonial__destimonial">Great experience working with him, delivered excellent work promptly and efficiently!-->
-<!--                  </div>-->
-
-<!--                  &lt;!&ndash; <div class="swiper-slide testimonial__card">-->
-<!--                        <img src="assets/img/testimonial/testimonial2.png" alt="" class="testimonial__img">-->
-
-<!--                        <h3 class="testimonial__name">Paula Vusy</h3>-->
-<!--                        <p class="testimonial__destimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed-->
-<!--                  </div>-->
-
-<!--                  <div class="swiper-slide testimonial__card">-->
-<!--                        <img src="assets/img/testimonial/testimonial3.png" alt="" class="testimonial__img">-->
-
-<!--                        <h3 class="testimonial__name">Sara Cill</h3>-->
-<!--                        <p class="testimonial__destimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed-->
-<!--                  </div> &ndash;&gt;-->
-<!--               </div>-->
-
-<!--               <div class="swiper-pagination"></div>-->
-<!--            </div>-->
-<!--         </section>-->
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Odoo ERP Developer</h4>
+                <span>Jan 2024 — Present</span>
+                <p class="timeline-text">
+                  Responsible for developing, customizing, and maintaining Odoo ERP modules to enhance business processes. 
+                  Collaborating with cross-functional teams to deliver efficient and scalable ERP solutions.
+                </p>
+              </li>
             
-            <h2 class="section__title">CONTACT ME</h2>
-            <div class="contact__container container grid">
-               <form action="" class="contact__form grid" id="contact-form">
-                  <div class="contact__group grid">
-                     <input type="text" name="user_name" placeholder="Names" required class="contact__input">
-                     <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Odoo Training</h4>
+                <span>Aug 2023 — Jan 2024</span>
+                <p class="timeline-text">
+                  Gained in-depth knowledge of Odoo ERP, including module development, customization, and implementation. 
+                  Acquired hands-on experience in Python, PostgreSQL, and Odoo framework best practices.
+                </p>
+              </li>
+            
+            </ol>
+            
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card" style="display: flex ;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2.5rem;
+            margin-block: 1.5rem;">
+
+              <img src="./assets/images/skills/skills-odoo.svg" alt="image" title="Odoo" class="skills__item">
+              <img src="assets/images/skills/skills-xml-2.svg" alt="image" title="XML" class="skills__item">
+              <img src="assets/images/skills/skills-css.svg" alt="image" title="CSS" class="skills__item">
+              <img src="assets/images/skills/skills-html.svg" alt="image" title="HTML" class="skills__item">
+              <img src="assets/images/skills/skills-bootstrap-5-1.svg" alt="image" title="Bootstrap" class="skills__item">
+              <img src="assets/images/skills/skills-sass.svg" alt="image" title="SCSS" class="skills__item">
+              <img src="assets/images/skills/skills-javascript.svg" alt="image" title="JavaScript" class="skills__item">
+              <img src="assets/images/skills/skills-jquery-4.svg" alt="image" title="JQuery" class="skills__item">
+              <img src="assets/images/skills/skills-python-5.svg" alt="image" title="Python" class="skills__item">
+              <img src="assets/images/skills/skills-postgresql.svg" alt="image" title="PostgresSQL" class="skills__item">
+              <img src="assets/images/skills/skills-git.svg" alt="image" title="Git" class="skills__item">
+              <img src="assets/images/skills/skills-github.svg" alt="image" title="Github" class="skills__item">
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <!-- <article class="portfolio" data-page="portfolio">
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="filter-list">
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+            </ul>
+
+            <div class="filter-select-box">
+
+              <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+              </button>
+
+              <ul class="select-list">
+
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article> -->
+
+        <!--
+          - #BLOG
+        -->
+
+        <article class="blog" data-page="portfolio">
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="blog-posts">
+
+            <ul class="blog-posts-list">
+
+              <li class="blog-post-item">
+                <a href="https://mechpowertech.com/">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/projects/projects-1.jpg" alt="Mechpower Technology" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">E-commerce Website</p>
+
+                      <!-- <span class="dot"></span> -->
+
+                      <!-- <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Mechpower Technology</h3>
+
+                    <p class="blog-text">
+                      Designed and developed a responsive website, including a shop page and custom pages, with attractive styling and seamless workflows to enhance user experience and engagement.
+                    </p>
+
                   </div>
 
-                  <textarea name="user_message" placeholder="Message" id="" class="contact__input contact__area"></textarea>
+                </a>
+              </li>
 
-                  <button type="submit" class="button contact__button">Send Message</button>
+              <li class="blog-post-item">
+                <a href="https://mahrilogistics.com/">
 
-                  <p class="contact__message" id="contact-message"></p>
-               </form>
-            </div>
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/projects/projects-2.jpg" alt="DHL Partner Site Revamp" loading="lazy">
+                  </figure>
 
-         </section>
-      </main>
+                  <div class="blog-content">
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div class="footer__content grid">
-               <a href="#" class="footer__logo">Mitul</a>
+                    <div class="blog-meta">
+                      <p class="blog-category">E-commerce Website</p>
 
-               <ul class="footer__links">
-                  <li>
-                     <a href="#home" class="footer__link">Home</a>
-                  </li>
+                      <!-- <span class="dot"></span>
 
-                  <li>
-                     <a href="#projects" class="footer__link">Projects</a>
-                  </li>
+                      <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                    </div>
 
-                  <li>
-                     <a href="#services" class="footer__link">Services</a>
-                  </li>
+                    <h3 class="h3 blog-item-title">DHL Partner Site Revamp</h3>
 
-<!--                  <li>-->
-<!--                     <a href="#testimonial" class="footer__link">Testimonial</a>-->
-<!--                  </li>-->
-               </ul>
-            </div>
+                    <p class="blog-text">
+                      Transformed DHL's partner site with a sleek, modern design, enhanced functionality, and a user-focused experience to streamline interactions and boost engagement.
+                    </p>
 
-            <div class="footer__social">
-               <a href="https://www.instagram.com/hyy._.mitull/" target="_blank" class="footer__social-link">
-                  <i class="ri-instagram-line"></i>
-               </a>
+                  </div>
 
-               <a href="https://www.linkedin.com/in/m1tul16/" target="_blank" class="footer__social-link">
-                  <i class="ri-linkedin-box-line"></i>
-               </a>
-            </div>
-         </div>
-         <span class="footer__copy">
-            Designed with ❤️ by Mitul Dave
-         </span>
-      </footer>
+                </a>
+              </li>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
+              <li class="blog-post-item">
+                <a href="#">
 
-      <!--=============== SWIPER JS ===============-->
-      <script src="assets/js/swiper-bundle.min.js"></script>
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/projects/projects-3.jpg" alt="Aljihad Company E-Commerce Development" loading="lazy">
+                  </figure>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
+                  <div class="blog-content">
 
-      <!--=============== EMAIL JS ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    <div class="blog-meta">
+                      <p class="blog-category">E-commerce Website</p>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+                      <!-- <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Aljihad Company E-Commerce Development</h3>
+
+                    <p class="blog-text">
+                      Developed a dynamic e-commerce website with advanced product configuration by category and brand. Designed custom pages for shop advertisements and optimized the homepage to showcase products organized by brands and categories for a seamless shopping experience.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/projects/projects-4.jpg" alt="Hr Policy" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Custom Module</p>
+
+                      <!-- <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Hr Policy</h3>
+
+                    <p class="blog-text">
+                      Developed a custom HR Policy module enabling three-level access control:<br><br>
+                      1. Main Manager (e.g., CEO) with full access and management.<br>
+                      2. Job Position Managers with restricted access to policies related to their roles.<br>
+                      3. Employees with view-only access to assigned policies.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7345.142395825133!2d72.54515505!3d23.002790499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8520d16bdee5%3A0xc45f720ab698597c!2sVasna%2C%20Ahmedabad%2C%20Gujarat%20380007!5e0!3m2!1sen!2sin!4v1724762357578!5m2!1sen!2sin"
+                width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" id="contact-form" data-form>
+
+              <div class="input-wrapper">
+                <input type="text" name="user_name" class="form-input" placeholder="Full name" required data-form-input>
+
+                <input type="email" name="user_email" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+
+              <textarea name="user_message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+              <p class="contact__message" id="contact-message"></p>
+            </form>
+
+          </section>
+
+        </article>
+
+      </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  </body>
 
 </html>
